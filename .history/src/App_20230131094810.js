@@ -93,8 +93,8 @@ export default function App() {
         {todos.map((todo) => (
           <TodoItem
             todo={todo}
-            onEditClick={handleEditClick}
-            onDeleteClick={handleDeleteClick}
+            onHandleEditClick={handleEditClick}
+            onHandleDeleteClick={handleDeleteClick}
           />
         ))}
       </ul>
